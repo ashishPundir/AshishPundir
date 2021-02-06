@@ -7,7 +7,7 @@ document.querySelector(".clickMore").addEventListener("click",function()
   var x = window.matchMedia("(max-width: 600px)");
   if (x.matches)
   { // If media query matches
-    window.scrollBy(0, 300);
+    window.scroll(0, 300);
    }
    else
    {
