@@ -7,7 +7,8 @@ document.querySelector(".clickMore").addEventListener("click",function()
   var x = window.matchMedia("only screen and (max-width: 600px)");
   if (x.matches)
   { // If media query matches
-    window.scroll(0, 300);
+    document.querySelector(".mainPage").style.paddingTop= "0px"
+
    }
    else
    {
