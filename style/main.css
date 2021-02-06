@@ -188,7 +188,7 @@ h3, h4
   display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:770px) {
   li
   {
     list-style-type:none;
