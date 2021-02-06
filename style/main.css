@@ -17,6 +17,12 @@ p
 {
   line-height: 1.25rem;
 }
+button
+{
+  background-color: #FFFFFF;
+  color: #121212;
+  padding:12px;
+}
 ul
 {
   line-height:200%;
@@ -236,6 +242,11 @@ h3, h4
   .contactCard
   {
     padding-top:15vh;
+  }
+  .cert
+  {
+    height:100px;
+    width:100px;
   }
 }
 
