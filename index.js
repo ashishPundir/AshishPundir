@@ -33,3 +33,17 @@ document.querySelector(".clickLess").addEventListener("click",function()
 
     }
 });
+
+
+document.querySelector("#bgButton").addEventListener("click",function()
+{
+  var element = document.body;
+  element.classList.toggle("bright");
+
+  var links = document.querySelectorAll("a");
+  for(var i=0; i<links.length; i++)
+  {
+    links[i].classList.toggle("bright");
+  }
+
+});

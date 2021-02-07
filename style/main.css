@@ -4,7 +4,7 @@ body
   color: #FFFFFF;
   font-family: 'Lora', serif;
   overflow-x: hidden;
-
+  scroll-behavior: smooth;
 }
 a
 {
@@ -29,7 +29,7 @@ ul
 }
 a:hover, a:active, .fas
 {
-  color:#FFFFFF;
+  color:inherit;
   font-family: 'Lora', serif;
 }
 .fas{
@@ -63,7 +63,7 @@ h3, h4
   margin-left: 2%;
   /*z-index: 1;*/
   height:12vh;
-  background-color: #121212;
+  /* background-color: #121212; */
 }
 .intro, .miniBio
 {
@@ -121,7 +121,7 @@ h3, h4
 {
   float: left;
   width: 59vw;
-  border-right: 2px solid white;
+  border-right: 2px solid;
   height: 75vh;
   box-sizing: border-box;
   margin-left: 2%;
@@ -139,7 +139,7 @@ h3, h4
   float: left;
   text-align: center;
   width: 59vw;
-  border-right: 2px solid white;
+  border-right: 2px solid;
   height:100%;
   box-sizing: border-box;
   margin-left: 2%;
@@ -188,6 +188,23 @@ h3, h4
   display: none;
 }
 
+.bright
+{
+  background-color: #FFFFFF;
+  color:#121212;
+}
+.toggleBgColor
+{
+  position: fixed;
+  left:10px;
+  top:92%;
+}
+#bgButton
+{
+  height:30px;
+  padding:0px;
+  border:none;
+}
 @media only screen and (max-width:770px) {
   li
   {
